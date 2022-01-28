@@ -11,3 +11,4 @@ Prefereable Hardware configuration includes the following
 Dual Intel XEON 3GHz
 128GB DDR4
 Windows 11
+Total Project size is 7.26MB
