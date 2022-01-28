@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "eBayesMST/1.0.0": {
+        "dependencies": {
+          "eBayesMSTClass": "1.0.0.0",
+          "ILNumerics": "4.5.5482.47106"
+        },
+        "runtime": {
+          "eBayesMST.dll": {}
+        }
+      },
+      "eBayesMSTClass/1.0.0.0": {
+        "runtime": {
+          "eBayesMSTClass.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ILNumerics/4.5.5482.47106": {
+        "runtime": {
+          "ILNumerics.dll": {
+            "assemblyVersion": "4.5.5482.47106",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
+      "OpenTK.GLControl/1.1.0.0": {
+        "runtime": {
+          "OpenTK.GLControl.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.1508.5724"
+          }
+        }
+      },
+      "OpenTK/1.1.0.0": {
+        "runtime": {
+          "OpenTK.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.1508.5724"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "eBayesMST/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eBayesMSTClass/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ILNumerics/4.5.5482.47106": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK.GLControl/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OpenTK/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

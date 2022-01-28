@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>   
+    <Reference Include="eBayesMSTClass">
+      <HintPath>..\eBayesClass\bin\Debug\net5.0\eBayesMSTClass.dll</HintPath>
+    </Reference>
+    <Reference Include="ILNumerics">
+      <HintPath>..\MacroTrial\MacroTrial\bin\Debug\ILNumerics.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
